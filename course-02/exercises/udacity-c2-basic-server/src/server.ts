@@ -17,7 +17,7 @@ import { Car, cars as cars_list } from './cars';
 
   // Root URI call
   app.get( "/", ( req: Request, res: Response ) => {
-    res.status(200).send("Welcome to the test!");
+    res.status(200).send("Welcome to the Cloud!");
   } );
 
   // Get a greeting to a specific person 
